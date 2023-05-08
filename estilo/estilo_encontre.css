@@ -1,0 +1,89 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+a:any-link{
+    text-decoration: none;
+    color: black;
+}
+
+a:link{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to top,#00137e, #0079c9, #00BBC9, #81e7ee );
+}
+
+
+#cabeca{
+    background-color: #00a7b3;
+
+}
+
+#voltar_inicio{
+    display: inline-block;
+    vertical-align: top;
+}
+#atual{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#header_nav{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#titulo{
+    position: relative;
+    left: 350px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#div_localiza{
+    height: 610px;
+    width: 1000px;
+    background-image: linear-gradient(to top,#172575, #2584c4, #29b8c2, #9ee5eb );
+    margin: auto;
+    margin-top: 15px;
+    padding-left: 10px;
+    border-radius: 30px;
+}
+#titulo_form{
+    text-align: center;
+
+}
+#localizacao{
+    height: 50px;
+    margin-top: 20px;
+}
+#uf-select{
+    border-radius: 15px;
+    height: 30px;
+    font-size: 16px;
+    padding-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#input_nome_cidade{
+    border-radius: 15px;
+    height: 30px;
+    width: 225px;
+    font-size: 16px;
+    padding-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#botao{
+    height: 30px;
+    width: 60px;
+    border-radius: 10px;
+}
+
+#map{
+    margin: auto;
+    height: 500px;
+    width: 950px;
+}

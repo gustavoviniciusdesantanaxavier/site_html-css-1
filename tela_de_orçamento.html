@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tela de orçamento</title>
+    <link rel="stylesheet" href="estilo/estio_orcamento.css">
+</head>
+
+<body>
+    <header id="cabeca">
+        <nav id="header_nav">
+            <h2 id="voltar_inicio"><a href="index.html">inicial ></a></h2>
+            <h2 id="atual">orçamento</h2>
+        </nav>
+        <h1 id="titulo">MEU MECANICO</h1>
+    </header>
+
+    <div id="orcamento_formu">
+        <h2 id="titulo_formu">FORMULARIO DE ORÇAMENTO</h2>
+
+        <form action="">
+            <div id="modelo">
+                <label for="modelo"><strong>-MODELO: </strong></label>
+                <input id="input_modelo" type="text" name="modelos" placeholder="digite o modelo do seu veiculo" size="30">
+                <label for="tipo_veiculo"><strong>-TIPO:</strong></label>
+                <select name="tipos_veiculos" id="tipos">
+                    <option value="moto" id="tipos">MOTO</option>
+                    <option value="carro" id="tipos">CARRO</option>
+                </select>
+                <label for="servico"><strong>-SERVIÇO:</strong></label>
+                <select name="tipo_de_servico" id="servicos">
+                    <option value="revisao">REVISÃO</option>
+                    <option value="conserto">CONSERTO</option>
+                </select>
+            </div>
+
+            <div id="local">
+                <label for="UF"><strong>-LOCALIZAÇÃO:</strong></label>
+                <select name="estados" id="estados">
+                    <option value="rondonia">RO</option>
+                    <option value="acre">AC</option>
+                    <option value="amazonas">AM</option>
+                    <option value="roraima">RR</option>
+                    <option value="para">PA</option>
+                    <option value="amapa">AP</option>
+                    <option value="tocantins">TO</option>
+                    <option value="maranhao">MA</option>
+                    <option value="piaui">PI</option>
+                    <option value="ceara">CE</option>
+                    <option value="rio_grande_do_norte">RN</option>
+                    <option value="paraiba">PB</option>
+                    <option value="pernambuco">PE</option>
+                    <option value="alagoas">AL</option>
+                    <option value="sergipe">SE</option>
+                    <option value="bahia">BA</option>
+                    <option value="minas_gerais">MG</option>
+                    <option value="espirito_santo">ES</option>
+                    <option value="rio_de_janeiro">RJ</option>
+                    <option value="sao_paulo">SP</option>
+                    <option value="parana">PR</option>
+                    <option value="santa_cantarina">SC</option>
+                    <option value="rio_grande_do_sul">RS</option>
+                    <option value="mato_grosso">MT</option>
+                    <option value="goias">GO</option>
+                    <option value="distrito_federal">DF</option>
+                </select>
+                <input id="cidade" type="text" name="cidade" placeholder="digite o nome de sua cidade" size="25">
+            </div>
+            <div id="preco">
+                <label for="preco"><strong>-PREÇOS:</strong></label>
+                <input id="preco_num" type="number" name="preco" placeholder="min." size="10">
+                <label for="-"><strong>-</strong></label>
+                <input id="preco_num" type="number" name="preco" placeholder="max." size="10">
+            </div>
+            <div id="reboque">
+                <label for="name"><strong>-REBOQUE: </strong></label>
+                <label for="sim">SIM</label>
+                <input type="radio" name="reboque" id="sim">
+                <label for="nao">NÃO</label>
+                <input type="radio" name="reboque" id="nao">
+            </div>
+            <div id="botao">
+                <input id="botao_enviar" type="submit" name="enviar">
+            </div>
+        </form>
+        <h2 id="titulo_formu" >MAPA DE MECANICOS PROXIMOS</h2>
+        <div id="div_map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d63340.22515859901!2d-34.8520448!3d-7.1532544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1683547132758!5m2!1spt-BR!2sbr" width="800" height="310" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    
+</body>
+</html>

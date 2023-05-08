@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tela de registro</title>
+    <link rel="stylesheet" href="estilo/estilo_registro.css">
+</head>
+<body>
+    <header id="cabeca">
+        <nav id="header_nav">
+            <h2 id="voltar_inicio"><a href="index.html">inicial ></a></h2>
+            <h2 id="atual">registro</h2>
+        </nav>
+        <h1 id="titulo">MEU MECANICO</h1>
+    </header>
+
+    <div id="formulario">
+        <h2 id="registro_titulo1">REGISTRO</h2>
+        <h3 id="p-cliente">(para clientes)</h3>
+        <form action="">
+            <div id="nome">
+                <label id="t-nome"> <strong>-NOME:</strong></label>
+                <input id="input_name" type="text" name="nome" placeholder="digite seu nome" size="25">
+            </div>
+            <div id="email">
+                <label for="email" id="t-email"> <strong>-E-MAIL:</strong></label>
+                <input id="input_email" type="email" name="email" placeholder="digite seu email" size="24">
+            </div>
+            <div id="telefone">
+                <label for="telefone" id="t-telefone"><strong>-TELEFONE:</strong></label>
+                <input id="input_telefone" type="tel" name="telefone" placeholder="digite seu numero">
+            </div>
+            <div id="localiza">
+                <label for="uf"><strong>-LOCALIZAÇÃO: </strong></label>
+                <select name="estado" id="uf-select">
+                    <option value="rondonia">RO</option>
+                    <option value="acre">AC</option>
+                    <option value="amazonas">AM</option>
+                    <option value="roraima">RR</option>
+                    <option value="para">PA</option>
+                    <option value="amapa">AP</option>
+                    <option value="tocantins">TO</option>
+                    <option value="maranhao">MA</option>
+                    <option value="piaui">PI</option>
+                    <option value="ceara">CE</option>
+                    <option value="rio_grande_do_norte">RN</option>
+                    <option value="paraiba">PB</option>
+                    <option value="pernambuco">PE</option>
+                    <option value="alagoas">AL</option>
+                    <option value="sergipe">SE</option>
+                    <option value="bahia">BA</option>
+                    <option value="minas_gerais">MG</option>
+                    <option value="espirito_santo">ES</option>
+                    <option value="rio_de_janeiro">RJ</option>
+                    <option value="sao_paulo">SP</option>
+                    <option value="parana">PR</option>
+                    <option value="santa_cantarina">SC</option>
+                    <option value="rio_grande_do_sul">RS</option>
+                    <option value="mato_grosso">MT</option>
+                    <option value="goias">GO</option>
+                    <option value="distrito_federal">DF</option>
+                </select>
+                <input id="input_cidade" type="text" name="cidade" placeholder="digite o nome de sua cidade">
+
+            </div>
+            <div id="automovel">
+                <label for="automovel"><strong>-QUAL SEU TIPO DE VEICULO: </strong></label>
+                <select name="tipo_automovel" id="automo">
+                    <option value="carro_p">carro popular</option>
+                    <option value="carro_es">carro esporte</option>
+                    <option value="moto">moto</option>
+                    <option value="moto_es">moto esportiva</option>
+                </select>
+            </div>
+            <div id="modelo">
+                <label for="modelo"><strong>-MODELO:</strong></label>
+                <input id="input_modelo" type="text" name="modelo" placeholder="digite o modelo de seu veiculo" size="23">
+            </div>
+            <div id="tipo">
+                <label for="combus"><strong>-MOTOR DO SEU CARRO: </strong></label>
+                <select name="motor" id="motor-select">
+                    <option value="gasolina">gasolina</option>
+                    <option value="diesel">diesel</option>
+                    <option value="hibrido">hibrido</option>
+                    <option value="eletrico">eletrico</option>
+                </select>
+            </div>
+            <div id="descri">
+                <label for="descricao" id="t-descricao"><strong>-DESCRIÇÃO:</strong></label>
+                <textarea name="descricao" id="descricao" cols="20" rows="5" placeholder="digite uma breve descrição do seu veiculo."></textarea>
+            </div>
+            <div id="botao">
+                <input type="submit" name="concluir">
+            </div>
+        </form>
+        <h2 id="registro_titulo2">REGISTRO:</h2>
+        <h3 id="p-oficina">(para oficinas)</h3>
+        <form action="">
+            <div id="nome">
+                <label id="t-nome2"> <strong>-PROPIETARIO:</strong></label>
+                <input id="input_propietario" type="text" name="nome" placeholder="digite seu nome" size="20">
+            </div>
+            <div id="email">
+                <label for="email" id="t-email2"> <strong>-E-MAIL:</strong></label>
+                <input id="input_email" type="email" name="email" placeholder="digite seu email" size="28">
+            </div>
+            <div id="telefone">
+                <label for="telefone" id="t-telefone2"><strong>-TELEFONE:</strong></label>
+                <input id="input_telefone" type="tel" name="telefone" placeholder="digite seu numero" size="24">
+            </div>
+            <div id="localiza">
+                <label for="uf"><strong>-LOCALIZAÇÃO: </strong></label>
+                <select name="estado" id="uf-select">
+                    <option value="rondonia">RO</option>
+                    <option value="acre">AC</option>
+                    <option value="amazonas">AM</option>
+                    <option value="roraima">RR</option>
+                    <option value="para">PA</option>
+                    <option value="amapa">AP</option>
+                    <option value="tocantins">TO</option>
+                    <option value="maranhao">MA</option>
+                    <option value="piaui">PI</option>
+                    <option value="ceara">CE</option>
+                    <option value="rio_grande_do_norte">RN</option>
+                    <option value="paraiba">PB</option>
+                    <option value="pernambuco">PE</option>
+                    <option value="alagoas">AL</option>
+                    <option value="sergipe">SE</option>
+                    <option value="bahia">BA</option>
+                    <option value="minas_gerais">MG</option>
+                    <option value="espirito_santo">ES</option>
+                    <option value="rio_de_janeiro">RJ</option>
+                    <option value="sao_paulo">SP</option>
+                    <option value="parana">PR</option>
+                    <option value="santa_cantarina">SC</option>
+                    <option value="rio_grande_do_sul">RS</option>
+                    <option value="mato_grosso">MT</option>
+                    <option value="goias">GO</option>
+                    <option value="distrito_federal">DF</option>
+                </select>
+                <input id="input_cidade" type="text" name="cidade" placeholder="digite o nome de sua cidade">
+                </div>
+                <div id="nome_local">
+                    <label for="nome_local"><strong>-NOME DA OFICINA:</strong></label>
+                    <input id="input_local" type="text" name="nome_oficina" placeholder="digite o nome de sua oficina" size="23">
+                </div>
+                <div id="especialidade">
+                    <label for="especialidade"><strong>-ESPECIALIDADE: </strong></label>
+                    <input id="input_especialidade" type="text" name="especialidade" placeholder="digite sua especialidade" size="25">
+                </div>
+                <div id="descri">
+                    <label for="descricao" id="t-descricao"><strong>-DESCRIÇÃO:</strong></label>
+                    <textarea name="descricao" id="descricao" cols="20" rows="5" placeholder="digite uma breve descrição de sua oficina."></textarea>
+                </div>
+                <div id="botao">
+                    <input type="submit" name="concluir">
+                </div>
+        </form>
+    </div>
+    <div id="img1">
+        <div id="efects1">
+            <div id="ti1">
+                <h1 id="t1">CONECTANDO</h1>
+            </div>
+        </div>
+    </div>
+
+    <div id="img2">
+        <div id="efects2">
+            <div id="ti2">
+                <h1 id="t2">AUXILIANDO</h1>
+            </div>
+        </div>
+    </div>
+
+    <div id="img3">
+        <div id="efects3">
+            <div id="ti3">
+                <h1 id="t3">CONSTRUINDO</h1>
+            </div>
+        </div>
+    </div> 
+    
+    <div id="img4">
+        <div id="efects4">
+            <div id="ti4">
+                <h1 id="t4">EXPANDINDO</h1>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,132 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+a:any-link{
+    text-decoration: none;
+    color: black;
+}
+
+a:link{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to top,#00137e, #0079c9, #00BBC9, #81e7ee );
+}
+
+#cabeca{
+    background-color: #00a7b3;
+
+}
+
+#voltar_inicio{
+    display: inline-block;
+    vertical-align: top;
+}
+#atual{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#header_nav{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#titulo{
+    position: relative;
+    left: 350px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#orcamento_formu{
+    background-image: linear-gradient(to top,#172575, #2584c4, #29b8c2, #9ee5eb );
+    height: 610px;
+    width: 1000px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 30px;
+    padding-top: 12px;
+    padding-left: 10px;
+}
+
+#titulo_formu{
+    text-align: center;
+}
+
+#veiculo{
+    height: 50px;
+}
+#modelo{
+    height: 50px;
+}
+#local{
+    height: 50px;
+}
+#preco{
+    height: 50px;
+}
+#reboque{
+    height: 30px;
+}
+#input_modelo{
+    border-radius: 15px;
+    height: 30px;
+    font-size: 16px;
+    padding-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#tipos{
+    border-radius: 15px;
+    height: 30px;
+    width: 100px;
+    font-size: 16px;
+    padding-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#servicos{
+    border-radius: 15px;
+    height: 30px;
+    width: 100px;
+    font-size: 16px;
+    padding-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#estados{
+    border-radius: 15px;
+    height: 30px;
+    width: 100px;
+    font-size: 16px;
+    padding-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#cidade{
+    border-radius: 15px;
+    height: 30px;
+    font-size: 16px;
+    padding-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#preco_num{
+    border-radius: 15px;
+    height: 30px;
+    width: 70px;
+    font-size: 16px;
+    padding-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#botao_enviar{
+    height: 30px;
+    width: 60px;
+    border-radius: 10px;
+}
+#div_map{
+    margin: auto;
+    margin-top: 20px;
+    height: 310px;
+    width: 800px;
+}

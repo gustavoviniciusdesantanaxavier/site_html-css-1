@@ -1,0 +1,341 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+a:any-link{
+    text-decoration: none;
+    color: black;
+}
+
+a:link{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to top,#00137e, #0079c9, #00BBC9, #81e7ee );
+}
+
+#cabeca{
+    background-color: #29b8c2;
+
+}
+
+#voltar_inicio{
+    display: inline-block;
+    vertical-align: top;
+}
+#atual{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#header_nav{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#titulo{
+    position: relative;
+    left: 350px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#formulario{
+    background-image: linear-gradient(to top,#172575, #2584c4, #29b8c2, #9ee5eb );
+    height: 800px;
+    width: 500px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 30px;
+    padding-top: 12px;
+    padding-left: 10px;
+}
+
+#registro_titulo1{
+    text-align: center;
+}
+#p-cliente{
+    text-align: center;
+}
+
+#nome{
+    height: 30px;
+}
+
+#email{
+    height: 30px;
+}
+
+#telefone{
+    height: 30px;
+}
+
+#localiza{
+    height: 30px;
+}
+
+#automovel{
+    height: 30px;
+}
+
+#modelo{
+    height: 31px;
+}
+
+#tipo{
+    height: 30px;
+}
+#botao{
+    height: 27px;
+}
+
+#t-descricao{
+    vertical-align: top;
+}
+#registro_titulo2{
+    text-align: center;
+
+}
+#p-oficina{
+    text-align: center; 
+}
+
+#nome_local{
+    height: 30px;
+}
+#especialidade{
+    height: 30px;
+}
+#nome_oficina{
+    height: 30px;
+}
+
+#input_name{
+    height: 20px;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+#input_email{
+    height: 20px;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+#input_telefone{
+    height: 20px;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+#uf-select{
+    height: 20px;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+#input_cidade{
+    height: 20px;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+#automo{
+    height: 20px;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+#input_modelo{
+    height: 20px;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+#motor-select{
+    height: 20px;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+#descricao{
+    border-radius: 5px;
+    padding: 2px;
+}
+
+#input_propietario{
+    height: 20px;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+#input_local{
+    height: 20px;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+#input_especialidade{
+    height: 20px;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+
+
+
+
+
+
+#img1{
+    position: absolute;
+    top: 100px;
+    height: 200px;
+    width: 400px;
+    margin-left: 10px;
+    background-image: url(https://img.freepik.com/fotos-gratis/feliz-saudacao-mecanica-com-seu-colega-de-trabalho-afro-americano-na-oficina-mecanica_637285-11601.jpg?size=626&ext=jpg&ga=GA1.2.32239336.1682956817&semt=sph);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#efects1{
+    position: absolute; 
+    top: 0;
+    background-color: black;
+    height: 200px;
+    width: 400px;
+    opacity: 0;
+}
+#efects1:hover{
+    opacity: 0.8;
+    transition: 0.8s;
+}
+#ti1{
+    position: absolute; 
+    top: 0px;
+    height: 200px;
+    width: 400px;
+    margin-left: 10px;
+}
+#ti1:hover{
+    color:white;
+}
+#t1{
+    margin-top: 80px;
+    margin-left: 90px;
+}
+
+#img4{
+    position: absolute;
+    top: 600px;
+    height: 200px;
+    width: 400px;
+    margin-left: 10px;
+    background-image: url(https://img.freepik.com/fotos-gratis/mecanicos-masculinos-trabalhando-juntos-no-carro-na-loja_23-2150376970.jpg?size=626&ext=jpg&ga=GA1.1.32239336.1682956817&semt=sph);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#efects4{
+    position: absolute; 
+    top: 0;
+    height: 200px;
+    width: 400px;
+    background-color: black;
+    opacity: 0;
+}
+#efects4:hover{
+    opacity: 0.8;
+    transition: 0.8s;
+}
+#ti4{
+    position: absolute; 
+    top: 0px;
+    height: 200px;
+    width: 400px;
+}
+#ti4:hover{
+    color: white;
+}
+#t4{
+    margin-top: 80px;
+    margin-left: 90px;
+}
+#img2{
+    position: absolute;
+    top: 100px;
+    right: 0px;
+    height: 200px;
+    width: 400px;
+    margin-right: 10px;
+    background-image: url(https://img.freepik.com/fotos-gratis/mecanicos-masculinos-trabalhando-juntos-no-carro-na-loja_23-2150376985.jpg?size=626&ext=jpg&ga=GA1.1.32239336.1682956817&semt=sph);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#efects2{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: black;
+    height: 200px;
+    width: 400px;
+    opacity: 0;
+}
+#efects2:hover{
+    opacity: 0.8;
+    transition: 0.8s;
+}
+#ti2{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 200px;
+    width: 400px;
+    background-color: black;
+}
+#ti2:hover{
+    color: white;
+}
+#t2{
+    margin-top: 80px;
+    margin-left: 90px;
+}
+
+#img3{
+    position: absolute;
+    top: 600px;
+    right: 0px;
+    height: 200px;
+    width: 400px;
+    margin-right: 10px;
+    background-image: url(https://img.freepik.com/fotos-premium/mecanico-com-laptop-perto-do-motor-do-carro-programa-de-diagnostico-de-carro-moderno-conceito-de-servico-de-carro-vista-lateral_613652-286.jpg?size=626&ext=jpg&ga=GA1.1.32239336.1682956817&semt=sph);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#efects3{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 200px;
+    width: 400px;
+    background-color: black;
+    opacity: 0;
+}
+#efects3:hover{
+    opacity: 0.8;
+    transition: 0.8s;
+}
+#ti3{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 200px;
+    width: 400px;
+    background-color: black;
+}
+#ti3:hover{
+    color: white;
+}
+#t3{
+    margin-top: 80px;
+    margin-left: 90px;
+}

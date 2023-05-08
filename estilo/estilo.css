@@ -1,0 +1,372 @@
+body{
+    background-color: #00137e;
+}
+a:any-link{
+    text-decoration: none;
+    color: black;
+}
+
+a:link{
+    text-decoration: none;
+    color: black;
+}
+
+#tg{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#th1{
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+#th2{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: -15px;
+}
+
+#th3{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 460px;
+    margin-top: -25px;
+    text-decoration: none;
+}
+#th3::after{
+    content: " ";
+    width: 0%;
+    height: 4px;
+    background-color: black;
+    position: absolute;
+    bottom: 548px;
+    left: 9px;
+    transition: 0.5s ease-in-out;
+}
+#th3:hover::after{
+    width: 9%;
+}
+
+#th4{
+    display: inline-block;
+    margin-right: 300px;
+    text-decoration: none;
+
+}
+#th4::after{
+    content: " ";
+    width: 0%;
+    height: 4px;
+    background-color: black;
+    position: absolute;
+    bottom: 548px;
+    left: 576px;
+    transition: 0.5s ease-in-out;
+}
+#th4:hover::after{
+    width: 16%;
+}
+
+#th5{
+    display: inline-block;
+    text-decoration: none;
+}
+#th5::after{
+    content: " ";
+    width: 0%;
+    height: 4px;
+    background-color: black;
+    position: absolute;
+    bottom: 548px;
+    left: 1076px;
+    transition: 0.5s ease-in-out;
+}
+#th5:hover::after{
+    width: 18%;
+}
+
+#div1{
+    background-image: linear-gradient(to bottom, #00BBC9, #0079c9 );
+    width: 1368px;
+    height: 105px;
+    margin-top: -20px;
+    margin-left: -10px;
+}
+
+#div2{
+    background-image: linear-gradient(to top,#00137e, #0079c9, #00BBC9, #81e7ee );
+    width: 1368px;
+    height: 1000px;
+    margin-top: -15px;
+    margin-left: -10px;
+   
+}
+
+#subdiv1{
+    display: inline-block;
+    background-color: black;
+    width: 600px;
+    height: 300px;
+    margin-left: 20px;
+}
+
+#divefect1{
+    position: absolute;
+    top: 171px;
+    width: 600px;
+    height: 300px;
+    margin-left: 0px;
+
+    background-color: transparent;
+    backdrop-filter: blur(0px);
+    overflow: hidden;
+}
+#divefect1:hover #divt1{
+    bottom: 0px;
+}
+#divefect1:hover{
+    backdrop-filter: blur(10px);
+}
+
+#divt1{
+    position: absolute;
+    bottom: -300px;
+    width: 600px;
+    height: 300px;
+    margin-left: 0px;
+    transition: bottom 0.7s;
+}
+
+#ti1{
+    color: black ;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: relative;
+}
+
+#subdiv2{
+    background-color: #02b5c2;
+    vertical-align: top;
+    display: inline-block;
+    height: 50px;
+    width: 200px;
+    border-radius: 15px;
+    padding: 2px;
+    margin-left: 15px;
+    overflow: hidden;
+    transition: 0.7s;
+}
+
+#subdiv2:hover{
+    height: 250px;
+    width: 700px;
+    padding: 5px;
+    background-color: #00BBC9;
+}
+
+#tg1{
+    position: relative;
+    top: -11px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#tg2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#tg3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#subdiv3{
+    background-color: #02b5c2;
+    vertical-align: top;
+    display: inline-block;
+    height: 30px;
+    width: 590px;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 20px;
+    transition: 0.7s;
+    overflow: hidden;
+}
+#subdiv3:hover{
+    height: 180px;
+    width: 590px;
+    background-color: #00BBC9;
+}
+#tg4{
+    position: relative;
+    top: -20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#tg5{
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+#subdiv4{
+    background-color: #878787;
+    vertical-align: top;
+    display: inline-block;
+    height: 200px;
+    width: 400px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+#divefect2{
+    position: absolute;
+    top: 505px;
+    height: 200px;
+    width: 400px;
+    background-color: transparent;
+    backdrop-filter: blur(0px);
+    overflow: hidden;
+}
+#divefect2:hover{
+    backdrop-filter: blur(10px);
+}
+#divefect2:hover #divt2{
+    top: 0px;
+}
+
+#divt2{
+    position: absolute;
+    top: 200px;
+    height: 200px;
+    width: 400px;
+    background-color: transparent;
+    transition: top 0.7s;
+}
+
+#subdiv5{
+    background-color: #878787;
+    vertical-align: top;
+    display: inline-block;
+    height: 210px;
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+#subdiv6{
+    background-color: #878787;
+    height: 100px;
+    width: 200px;
+    margin-top: 5px;
+}
+
+#subdiv7{
+    background-color: #878787;
+    vertical-align: top;
+    display: inline-block;
+    height: 300px;
+    width: 600px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+#divefect3{
+    position: absolute;
+    top: 745px;
+    height: 300px;
+    width: 600px;
+    background-color: transparent;
+    backdrop-filter: blur(0px);
+    overflow: hidden;
+}
+#divefect3:hover{
+    backdrop-filter: blur(10px);
+}
+#divefect3:hover #divt3{
+    top: 0px;
+}
+#divt3{
+    position: absolute;
+    top: 300px;
+    height: 300px;
+    width: 600px;
+    background-color: transparent;
+    transition: top 0.7s;
+}
+
+#divm-8-9{
+    background-color: transparent;
+    vertical-align: top;
+    display: inline-block;
+    height: 300px;
+    width: 600px;
+    padding: 0px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+#subdiv8{
+    background-color: #00BBC9;
+    height: 50px;
+    width: 600px;
+    margin-top: 5px;
+    margin-left: 20px;
+    border-radius: 15px;
+}
+
+#subdiv8:hover #subdiv9{
+    background-color: #00BBC9;
+    color: black;
+}
+
+#subdiv9{
+    background-color: transparent;
+    color: transparent;
+    height: 200px;
+    width: 600px;
+    margin-top: 5px;
+    border-radius: 15px;
+    transition: 1s;
+}
+
+#tg6{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#tg7{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#client{
+    
+    display: inline-block;
+    vertical-align: top;
+    width: 345px;
+    margin-top: 0px;
+}
+
+#client_number{
+    width: 365px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+    margin-top: -25px;
+}
+
+#ofi{
+    
+    display: inline-block;
+    vertical-align: top;
+    width: 250px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+#ofi_number{
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: -25px;
+}
+
+#tb1{
+    text-align: center;
+}
+#tb2{
+    text-align: left;
+}
